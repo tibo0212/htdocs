@@ -1,0 +1,117 @@
+
+.swordcursor{   
+    background-color: transparent;
+    margin-right: 10%;
+    margin-left: 65%;
+    width: 30%;
+    margin-top: -30%;  
+    border: 10px solid transparent;
+    position: relative;
+    bottom: 50vh;
+    left: 10vw;       
+}
+
+.swordcursor img{
+    cursor: url('../images/epee 32x32.png'), crosshair;
+    position: absolute;
+    top: 40vh;
+    right: 30vh;
+}
+footer.contact{
+    position: absolute;
+    top: 350vh;
+    width: 100%;
+    height: 10%;
+}
+footer p{
+    font-family: Redressed;
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+.centered {
+
+ 
+  justify-content: center;
+  
+  padding-top: 20%;
+  background-color: rgb(39, 202, 194);
+  border: 5px solid rgb(14, 235, 14);
+
+  border-radius:10px;
+
+  padding: 20px;
+  margin-top: 20%;
+  margin-left: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 40%;
+}
+
+
+.img1:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img1{
+  -webkit-transition: all 0.25s ease-in-out;
+
+    transition: all 0.25s ease-in-out;
+
+}
+form.contact {
+    width:100%;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    position: relative;
+    top: 10vh;
+
+}
+#container h1.tittle{
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    font-family: Dancing;
+    font-size: 2rem;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 100%;
+}
+input[type=submit]:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+textarea{
+    background-color: rgb(151, 255, 151);
+    border-radius: 15px;
+    resize: none;
+
+}

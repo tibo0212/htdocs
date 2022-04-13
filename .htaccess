@@ -1,0 +1,11 @@
+RewriteEngine on
+
+#retirer l'extension php 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+# Empêcher l'accès à la liste des répertoires et à la liste des fichiers
+Options All -Indexes
+#Indiquer que la racine du site est la page d'accueil ci-dessous
+DirectoryIndex Accueil.php
+ErrorDocument 404 /pages/404.html
